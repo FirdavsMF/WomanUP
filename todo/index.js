@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const TODO require('../db/models/todo')
+const TODO = require('../db/models/todo')
 
 router.post('/', (req, res) => {
 	const {username, value} = req.body
